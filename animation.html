@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <style>
+        main {
+            margin-top: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .box {
+
+            width: 250px;
+            height: 300px;
+            margin: 20;
+            border: 1px solid crimson;
+            background-color: darkblue;
+            animation-play-state: paused;
+
+
+        }
+
+        .box:hover {
+
+            animation-play-state: running;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in-out;
+
+        }
+
+        .animation {
+
+            text-align: center;
+            color: white;
+            animation-play-state: paused;
+        }
+
+        .animation:hover {
+
+
+
+            animation-play-state: running;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in-out;
+
+        }
+
+
+
+        .another-box {
+
+            text-align: center;
+            width: 250px;
+            height: 300px;
+            margin: 20;
+            border: 1px solid crimson;
+            background-color: paleturquoise;
+            animation-play-state: paused;
+
+
+        }
+
+        .another-box:hover {
+
+            animation-play-state: running;
+            animation-timing-function: ease-in-out;
+            animation-iteration-count: infinite;
+
+        }
+
+        .more-animation {
+
+
+
+
+            text-align: center;
+            width: 250px;
+            height: 300px;
+            margin: 20;
+            border: 1px solid crimson;
+            background-color: black;
+            color: white;
+            animation-play-state: paused;
+
+
+
+        }
+
+        .more-animation:hover {
+
+            animation-play-state: running;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in-out;
+
+
+        }
+
+
+
+        @keyframes rubberBand {
+
+            0% {
+
+                color: black;
+            }
+
+            100% {
+
+                color: tomato;
+            }
+
+        }
+
+        @keyframes swing {
+
+
+
+            0% {
+
+                color: white;
+            }
+
+            70% {
+
+                color: tomato;
+            }
+
+            100% {
+
+                color: teal;
+            }
+
+
+
+        }
+    </style>
+
+
+</head>
+
+
+<body>
+
+    <main>
+        <section>
+
+            <div class="box animate__animated animate__heartBeat">
+
+                <p class="animation animate__animated animate__rubberBand">Lorem, ipsum dolor sit amet consectetur
+                    adipisicing elit.
+                    Aliquam aliquid sint nostrum, blanditiis distinctio culpa vero quis minima! Error, quas.</p>
+
+
+            </div>
+
+            <div class="another-box animate__animated animate__bounce">
+
+                <h2>hello world</h2>
+                <p class="other-box animate_animated animate_tada">Lorem ipsum dolor sit amet, consectetur adipisicing
+                    elit.
+                    Delectus rerum et, iure atque amet aliquam
+                    harum nihil, iusto natus ipsam quaerat aliquid quo sed cum consequatur unde, minima numquam ex!</p>
+
+
+            </div>
+
+            <div class="more-animation animate__animated animate__shakeX">
+
+                <h1 class="konichiwa animate__animated animate__swing">konichiwa</h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut temporibus accusamus consequatur
+                    molestiae quibusdam corporis atque, tenetur ipsam consequuntur. Aliquid ad iste neque beatae porro
+                    dolor magni voluptatibus nisi ut?
+                </p>
+
+
+
+
+            </div>
+
+        </section>
+    </main>
+
+</body>
+
+</html>
